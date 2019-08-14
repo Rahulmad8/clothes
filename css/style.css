@@ -1,0 +1,213 @@
+/********************* Shopping Demo-2 **********************/
+.demo {
+  padding: 45px 0;
+}
+.product-grid2 {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+.product-grid2 .product-image2 {
+  overflow: hidden;
+  position: relative;
+}
+.product-grid2 .product-image2 a {
+  display: block;
+}
+.product-grid2 .product-image2 img {
+  width: 100%;
+  height: auto;
+}
+.product-image2 .pic-1 {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.product-grid2 .add-to-cart {
+  color: #fff;
+  background-color: #404040;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  transition: all 0.3s;
+}
+.product-grid2 .add-to-cart:hover {
+  background-color: #3498db;
+  text-decoration: none;
+}
+.product-grid2:hover .add-to-cart {
+  bottom: 0;
+}
+.product-grid2 .product-new-label {
+  background-color: #3498db;
+  color: #fff;
+  font-size: 17px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.3s;
+}
+.product-grid2:hover .product-new-label {
+  opacity: 0;
+}
+.product-grid2 .product-content {
+  padding: 20px 10px;
+  text-align: center;
+}
+.product-grid2 .title {
+  font-size: 17px;
+  margin: 0 0 7px;
+}
+.product-grid2 .title a {
+  color: #303030;
+}
+.product-grid2 .title a:hover {
+  color: #3498db;
+}
+.product-grid2 .price {
+  color: #303030;
+  font-size: 15px;
+}
+@media screen and (max-width: 990px) {
+  .product-grid2 {
+    margin-bottom: 30px;
+  }
+}
+
+/* filter */
+.select {
+  background-color: rgb(212, 206, 206);
+}
+
+.headp {
+  text-align: right;
+}
+
+.new1 {
+  border: 1px dotted black;
+}
+
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: 1px solid black;
+  font-size: 17px;
+}
+
+ul#top li {
+  display: inline;
+  margin: 0 20px 0 20px;
+  font-size: 15px;
+}
+ul#top span {
+  border-left: 1px solid black;
+  height: 5px;
+}
+
+ul#menu li {
+  display: inline;
+  margin: 0 20px 0 20px;
+  font-size: 20px;
+}
+
+ul#menu span {
+  border-left: 1px solid black;
+  height: 5px;
+}
+
+.upper {
+  box-sizing: border-box;
+  height: 40px;
+  background-color: #c0baba;
+}
+
+.lower {
+  box-sizing: border-box;
+  height: auto;
+  background-color: #c0baba;
+  padding: 40px 0 0 40px;
+}
+
+.lastfoot h5 {
+  font-size: 15px;
+}
+
+.footer .footinline h6 {
+  display: inline;
+  position: relative;
+  bottom: 25px;
+}
+
+.footer .footinline .visa {
+  display: inline;
+  position: absolute;
+  /* bottom: 25px;
+    left: 550px; */
+  right: 160px;
+}
+
+.footer .footinline .master {
+  display: inline;
+  position: absolute;
+  /* bottom: 25px;
+    left: 350px; */
+  right: 220px;
+}
+.footer .footinline .net {
+  display: inline;
+  position: absolute;
+  /* bottom: 25px;
+    left: 350px; */
+  right: 300px;
+}
+.button {
+  position: absolute;
+  bottom: 20px;
+  margin-left: -64px;
+}
+
+.news {
+  display: inline-block;
+}
+
+#email {
+  width: 24em;
+}
+
+#search {
+  width: 15em;
+}
+
+.line {
+  border: 0;
+  height: 2px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+  width: 400px;
+}
+
+.black-button {
+  position: absolute;
+  left: 420px;
+  bottom: 10px;
+}
+
+.needle {
+  position: absolute;
+  left: 370px;
+  bottom: 50px;
+}
+
+.end {
+  font-size: 12px;
+}
